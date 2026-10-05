@@ -88,7 +88,7 @@ deb = t.perf_counter()
 h = 100
 p = 0.5
 g = GaltonTable(h)               ################# AUTRE EXEMPLE, plusieurs lancés 
-print(g.simulate_fall(10000,p))
+print(g.simulate_fall(1000000,p))
 #print(g.simulate_fall(1000,p))
 #print(simulate_fall(5,5000,g,lambda t : t>=0.2))
 print(t.perf_counter()-deb)
